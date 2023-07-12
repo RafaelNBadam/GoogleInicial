@@ -1,0 +1,66 @@
+body { background-color: #1C1C1C;
+ background-size: cover;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    color: white;
+    
+}
+.caixatexto{
+    color: white;
+    
+    width: 600px;
+    display: flex;
+    background-color: #1C1C1C;
+    border-radius: 15px;
+    border: .7px solid grey
+}
+
+.logo{
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cabeca{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+        ;
+        align-items:center;
+        height: 70vh;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      
+      .botoes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        border-radius: 4x;
+        color: #333;
+        cursor: pointer;
+        
+          }
+          
+      .botao1 {
+        border-radius: 4px;
+        background-color: #303134;
+        border: 1px solid #303134;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+    
